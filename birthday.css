@@ -1,0 +1,45 @@
+* { 
+    box-sizing: border-box; 
+    margin: 0; 
+    padding: 0; 
+    font-family: "Times New Roman", Times, serif;
+}
+.birthdaydiv{ 
+    padding: 2%; 
+    font-size: 30px;
+     color: rgb(158, 90, 214);
+      background-color: rgb(105, 27, 179);
+    }
+    h1,form{
+         text-align: center;
+        }
+        input[type=text]
+        { 
+            width: 20%; padding: 10px 20px;
+        }
+        .button { 
+            background-color:#a614d3 ;
+             border: none;
+              color: rgb(141, 185, 235);
+               padding: 10px 15px;
+                text-align: center;
+                 text-decoration: none; 
+                 display: inline-block; 
+                 font-size: 16px;
+                }
+                 .Tablelist{
+                      margin: auto;
+                       width: 80%; 
+                       padding: 10px; 
+                    }
+                    table { 
+                        font-family: arial, sans-serif;
+                         border-collapse: collapse; width: 100%;
+                         }
+                         td,th{
+                             padding:8px;
+                             text-align:center;
+                         }
+                         tr:nth-child(even){
+                             background-color:#FFE4E1;
+                         }
